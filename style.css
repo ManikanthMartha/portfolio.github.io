@@ -1,0 +1,369 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #0A182F;
+    margin: 0;
+    padding: 0;
+}
+
+.text {
+    color: #00ffff;
+    font-family: 'Bruno Ace SC', cursive;
+
+}
+.vtext a{
+    color: aqua;
+    writing-mode: vertical-rl;
+    text-decoration: none;
+    font-size: 18px;
+    letter-spacing: 2px;
+}
+.v2 {
+    border-left: 2px solid #8893ae;
+    height: 200px;
+    margin-left: 8px;
+  }
+  #vmail{
+    position: fixed;
+    margin-left: 93%;
+  }
+.navbar {
+    background-color: #0A182F;
+    display: flex;
+    height: 100px;
+    width: 100%;
+    position: sticky;
+    top: 0;
+    margin-top: 0px;
+
+}
+
+#landingpage {
+    height: 100vh;
+    box-sizing: border-box;
+    background-color: #0A182F;
+    padding-top: 150px;
+
+}
+img{
+    margin-left: 5vh;
+    
+}
+.resume-button a:link, a:visited {
+    background-color: #121216;
+    color: aqua;
+    text-decoration: none;
+    border: 2px solid;
+    border-color: aqua;
+    padding: 10px 10px;
+    text-align: center;
+    border-radius: 5px;
+}
+.resume-button a:hover, a:active {
+    color: white;
+}
+ul {
+    margin: 0px;
+    padding: 0px;
+}
+
+#social{
+    position: fixed;
+    margin-left: 4%;
+    width: 10%;
+    
+    
+    
+}
+.vl {
+    border-left: 2px solid #8893ae;
+    height: 500px;
+    margin-left: 8px;
+  }
+
+.social-links ul {
+    padding-top: 39vh;
+}
+.social-links ul li a{
+    text-decoration: none;
+    color: aqua;
+    line-height: 48px;
+}
+.resume-button {
+    text-decoration: none;
+}
+
+.a-logo {
+    width: 70px;
+    height: 70px;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-links {
+    text-align: right;
+    position: relative;
+    margin-left: 680px;
+}
+
+.nav-links ul li {
+    display: inline;
+    color: aqua;
+    align-items: center;
+    border: 2px;
+    border-color: aqua;
+    margin: 10px;   
+}
+
+.nav-links ul li a {
+    text-decoration: none;
+    margin: 10px;
+}
+
+.small-text-top {
+    color: aqua;
+    margin-left: 210px;
+    margin-top: 30px;
+    font-size: 20px;
+}
+
+.big-text {
+    /* color: #cdd6f7; */
+    color: #BFFCF9;
+    margin-left: 210px;
+    margin-top: 30px;
+    margin-bottom: 10px;
+    font-size: 80px;
+    font-variant: small-caps;
+    font-family: 'Bruno Ace SC', cursive;
+
+}
+
+.medium-text {
+    color: #47817F;
+    font-family: 'Bruno Ace SC', cursive;
+font-family: 'Oswald', sans-serif;
+    margin-left: 210px;
+    font-size: 55px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.small-text {
+    color: #8893ae;
+    margin-left: 210px;
+    font-size: 20px;
+    line-height: 30px;
+    font-family: 'Roboto Mono', monospace;
+}
+
+
+
+#about {
+    height: 100vh;
+    box-sizing: border-box;
+    background-color: #0A182F;
+    /* background-color: red; */
+    margin-left: 280px;
+    margin-right: 450px;
+    text-align: justify;
+    padding-top: 100px;
+}
+
+h2 {
+    color: #47817F;
+}
+
+.small-text-about {
+    color: #8893ae;
+    line-height: 10px;
+    text-align: justify;
+    font-size: 10px;
+    font-family: 'PT Mono', monospace;
+    
+    /* letter-spacing: -1x; */
+
+}
+
+
+#experience {
+    height: 100vh;
+    box-sizing: border-box;
+    background-color: #0A182F;
+    
+    margin-left: 280px;
+    margin-right: 450px;
+    text-align: justify;
+    padding-top: 200px;
+}
+
+h2 {
+    color: #47817F;
+    font-family: 'Instrument Serif', serif;
+    letter-spacing: 4px;
+}
+
+.small-text-about {
+    color: #8893ae;
+    font-size: 20px;
+    line-height: 30px;
+    text-align: justify;
+    font-size: 25px;
+
+}
+
+
+.experience-btn{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 25%;
+    
+  
+}
+button{
+    color: #8893ae;
+    border-top: 0;
+    border-bottom: 0;
+    border-right: 0;
+    padding: 15px;
+    font-size: 1rem;
+    text-align: center;
+    background-color: #0A182F;
+    border-color: #47817F;
+    border-radius: 1px;
+    }
+
+button:hover{
+    color: #8893ae;
+    background-color: aqua;
+}
+
+button:active{
+    background-color: #47817F;
+}
+.experience-btn-info-1{
+    position: relative;
+    margin-left: 25%;
+    margin-top: -33%;
+
+}
+
+.role-name{
+    color: #8893ae;
+    font-size: 30px;
+    
+}
+.company-name{
+    color:aqua;
+    font-size: 30px;
+}
+.time{
+    
+    margin-top: 5px;
+    margin-bottom: 10px;
+    color: #8893ae;
+    font-size: 20px;
+}
+.work-info{
+    list-style-type: square;
+    color: aqua;
+}
+
+.work-info li p{
+    color: #8893ae;
+    line-height: 25px;
+    letter-spacing: 1px;
+}
+
+.experience-btn-info-2{
+    position: relative;
+    margin-left: 25%;
+    margin-top: -33%;
+    /* visibility: hidden; */
+}
+
+.experience-btn-info-3{
+    position: relative;
+    margin-left: 25%;
+    margin-top: -33%;
+    /* visibility: hidden; */
+}
+
+.experience-btn-info-4{
+    position: relative;
+    margin-left: 25%;
+    margin-top: -33%;
+    /* visibility: hidden; */
+}
+
+.experience-btn-info-5{
+    position: relative;
+    margin-left: 25%;
+    margin-top: -33%;
+    /* visibility: hidden; */
+}
+
+
+#projects {
+    height: 100vh;
+    box-sizing: border-box;
+    background-color: #0A182F;
+    
+    margin-left: 280px;
+    margin-right: 450px;
+    text-align: justify;
+    padding-top: 200px;
+}
+
+
+#contact {
+    height: 100vh;
+    box-sizing: border-box;
+    background-color: #0A182F;
+    margin-left: 280px;
+    margin-right: 450px;
+    text-align: center;
+    padding-top: 200px;
+}
+
+.medium-text-contact {
+    color: #47817F;
+    font-family: 'Permanent Marker', cursive;
+    margin-left: 155px;
+    font-size: 55px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+#experience2{
+    visibility: hidden;
+}
+#experience3{
+    visibility: hidden;
+}
+#experience4{
+    visibility: hidden;
+}
+#experience5{
+    visibility: hidden;
+}
+.experience-btn-info-2{
+    position: relative;
+    margin-top: -48%;
+}
+.experience-btn-info-3{
+    position: relative;
+    margin-top: -50%;
+}
+.experience-btn-info-4{
+    position: relative;
+    margin-top: -51%;
+}
